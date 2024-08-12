@@ -10,7 +10,7 @@ export const Gallery = () => {
                 <h1 className="text-white mb-4  uppercase text-2xl font-bold ">Galeria</h1>
             </div>
             <div className=" text-white container mx-auto  bg-blueDark h-[70%]  ">
-                <Card className="relative group w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 bg-gray-900 border-none ">
+                <Card className="relative group w-full grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 bg-gray-900 border-none ">
                     {Galeria.map((item) => (
 
                         <CardHeader key={item.id} className=" object-cover" >
