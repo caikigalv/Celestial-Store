@@ -53,7 +53,7 @@ export const DialogBuy = ({ open, onOpenChange }: Props) => {
                 <div className="flex flex-col gap-3 z-[100]">
                     {step === 'user' && <StepUser setStep={setStep}/>}
                     {step === 'address' && <StepAddress setStep={setStep}/>}
-                    {step === 'finish' && <StepFinish setStep={setStep}/>}
+                    {step === 'finish' && <StepFinish />}
                 </div>
             </DialogHeader>
         </DialogContent>
