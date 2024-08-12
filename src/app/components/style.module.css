@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+  }
+  
+  .scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Altere conforme necessário */
+  }
+
+
+  .button {
+    background: #fff;
+    border: none;
+    color:black;
+
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 300;
+    width: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+  }
+  
+  .span {
+    display: inline-flex;
+    transform: skew(21deg);
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .button:hover {
+    color: #fff;
+  }
+
+  .button:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+  .fundo{
+    background-image: url('');
+  }
