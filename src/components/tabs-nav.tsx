@@ -96,9 +96,6 @@ export const TabMenuNav = () => {
                     )}
                 </TabsContent>
             ))}
-
-
-
         </Tabs>
     )
 }
