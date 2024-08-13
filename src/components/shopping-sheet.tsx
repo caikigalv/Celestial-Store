@@ -49,12 +49,13 @@ export const SheetCar = () => {
                 </SheetHeader>
                 <div className="">
                     {cart.map(item => (
-                        <div key={item.product.id} className="flex items-center gap-5 my-5">
+                        <div key={item.product.id} className="flex items-center gap-3 xl:gap-5 my-5">
                             <div className="w-16 overflow-hidden">
-                                <img className=" sm:hidden xl:w-full h-auto object-cover" src={item.product.url} alt="" />
+                                <img className="xl:w-full h-auto object-cover" src={item.product.url} alt="" />
                             </div>
-                            <div className="flex-1">
-                                <p className="text-md truncate capitalize">{item.product.nome}</p>
+                            <div className="flex-1 ">
+                                <p className="
+                                w-[90px] xl:w-full text-[10px] xl:text-[14px] truncate capitalize">{item.product.nome}</p>
                                 <p className="text-xs opacity-50">R$ {item.product.preco.toFixed(2)}</p>
                             </div>
                             <div>
@@ -65,7 +66,7 @@ export const SheetCar = () => {
                 </div>
                 <Separator className="my-4" />
                 <div className="flex justify-between items-center text-xs">
-                    <div className="text-[15px] font-bold">Subtotal:</div>
+                    <div className="text-[15px] font-bold sm:text-sm">Subtotal:</div>
                     <div>R$ {subtotal.toFixed(2)}</div>
                 </div>
                 <Separator className="my-4" />
@@ -86,6 +87,3 @@ export const SheetCar = () => {
         </Sheet>
     )
 }
-
-
-// className="z-[1000] bg-black text-white"
