@@ -50,7 +50,7 @@ export const TabMenuNav = () => {
         toast({
             title: `Adicionado no carrinho!`,
             description: `${product.nome}`,
-            action: <ToastAction altText="Try again" className="bg-black text-white hover:bg-red-600">Fechar</ToastAction>,
+            action: <ToastAction altText="Try again" className="bg-black text-[10px] xl:text-[14px] text-white hover:bg-red-600">Fechar</ToastAction>,
         });
     };
 
