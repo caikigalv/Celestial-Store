@@ -14,7 +14,7 @@ import {
 import { useCartStore } from "./store/cart-store";
 import { useToast } from "./ui/use-toast";
 import { ToastAction } from "./ui/toast";
-import { StarIcon } from "lucide-react";
+
 
 
 type Tab = {
