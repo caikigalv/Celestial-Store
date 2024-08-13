@@ -43,6 +43,7 @@ export const StepUser = ({ setStep }: Props) => {
                             <FormLabel>Seu nome</FormLabel>
                             <FormControl>
                                 <Input
+                                    autoComplete="off"
                                     autoFocus
                                     placeholder="Qual seu nome?"
                                     {...field}
@@ -61,6 +62,7 @@ export const StepUser = ({ setStep }: Props) => {
                             <FormLabel>Email</FormLabel>
                             <FormControl>
                                 <Input
+                                    autoComplete="off"
                                     autoFocus
                                     placeholder="Digita seu email.."
                                     {...field}
