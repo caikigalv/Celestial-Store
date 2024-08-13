@@ -40,7 +40,7 @@ export const Header = () => {
 
     return (
         <div className={`w-screen fixed z-10 flex justify-around h-[80px]  items-center ${isScrolled ? 'bg-slate-900  h-[50px] bg-opacity-90 drop-shadow-md ' : 'bg-transparent'}`}>
-            <h1 className="uppercase font-extrabold xl:text-[20px] text-white cursor-pointer hover:text-blue-700"><a>Celestial Store</a></h1>
+            <h1 className="uppercase font-extrabold xl:text-[20px] text-white cursor-pointer hover:text-blue-700"><a href="">Celestial Store</a></h1>
             <div>
                 <div className="flex justify-center items-center xl:gap-8 gap-4 text-white">
 

@@ -40,7 +40,7 @@ export const AboutImg = ({ name, url, description }: Props) => {
                 <Separator className="text-white"/>
                 <div className="flex  flex-col gap-4">
                     <div className="">
-                        <img className=" md:w-[70%] md:h-[200px] 2xl:w-full 2xl:h-full" src={url} alt={name} />
+                        <img className="md:w-[70%] md:h-[200px] 2xl:w-full 2xl:h-full" src={url} alt={name} />
                     </div>
                     <div className="">
                         <span className="text-sm ">{description}</span>

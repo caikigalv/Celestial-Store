@@ -70,7 +70,7 @@ export const TabMenuNav = () => {
                         <Card className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
                             {tab.products.map(product => (
                                 <div key={product.id}>
-                                    <CardHeader className="w-[200px] h-[150px] object-cover">
+                                    <CardHeader className="xl:w-[200px] h-[150px] object-cover">
                                         <img className="rounded-md" src={product.url} alt={product.nome} />
                                     </CardHeader>
                                     <CardContent>

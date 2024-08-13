@@ -5,7 +5,7 @@ import { AboutImg } from "@/utils/aboutImgs"
 
 export const Gallery = () => {
     return (
-        <div className=" container  bg-black mt-4 flex flex-col justify-center items-center h-[100%]  mb-8">
+        <div id="Galeria" className=" container  bg-black mt-4 flex flex-col justify-center items-center h-[100%]  mb-8">
             <div>
                 <h1 className="text-white mb-4  uppercase text-2xl font-bold ">Galeria</h1>
             </div>

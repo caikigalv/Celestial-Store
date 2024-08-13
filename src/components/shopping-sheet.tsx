@@ -51,7 +51,7 @@ export const SheetCar = () => {
                     {cart.map(item => (
                         <div key={item.product.id} className="flex items-center gap-5 my-5">
                             <div className="w-16 overflow-hidden">
-                                <img className="w-full h-auto object-cover" src={item.product.url} alt="" />
+                                <img className=" sm:hidden xl:w-full h-auto object-cover" src={item.product.url} alt="" />
                             </div>
                             <div className="flex-1">
                                 <p className="text-md truncate capitalize">{item.product.nome}</p>
